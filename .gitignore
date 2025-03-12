@@ -1,0 +1,54 @@
+# Ignore object files, binaries, and libraries
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Ignore build directories
+/build/
+/out/
+/bin/
+
+# Ignore generated files
+*.log
+*.tmp
+*.pch
+*.gch
+*.d
+*.dep
+
+# Ignore IDE-specific files
+*.code-workspace
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Ignore Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.sln
+*.ncb
+*.suo
+*.opensdf
+*.sdf
+ipch/
+*.db
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Windows files
+Thumbs.db
